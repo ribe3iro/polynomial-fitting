@@ -1,5 +1,5 @@
 ## Least Squares Method Polynomial
-Basically, Least Squares Method Polynomial consists of the orthogonal projection of a continuous function into the polynomials space. By doing this, the resulting polynomial is the best polynomial aproximation for this continuous function. That means there is no other same degree polynomial that makes the squared area between itself and the original continuous function lesser!
+Basically, Least Squares Method Polynomial consists of the orthogonal projection of a continuous function into the space of polynomials. By doing this, the resulting polynomial is the best polynomial aproximation for this continuous function. That means there is no other same degree polynomial that makes the squared area between itself and the original continuous function lesser!
 
 In this example, things are a little bit different, cause there is no original continuous function to aproximate. Instead, we have points! Take a look at "discrete least squares approximation" for more information about this case.
 
@@ -12,12 +12,12 @@ Polynomial interpolation means finding the lowest possible degree polynomial tha
 (Images above by Prof. Afonso Paiva (ICMC-USP) - SME0306)
 
 # Project
-This is a P5.js visualization of both Lagrange Interpolating Polynomial and Least Squares Method Polynomial
+This is a P5.js visualization of both Lagrange Interpolating Polynomial and Least Squares Method Polynomial:
 ![image](https://user-images.githubusercontent.com/45838334/180592514-6e592277-6221-492c-8a24-2d2d2d11e1e3.png)
 
-Clicking on the canvas will add new points to the system, and force the polynomials to update itself for a better fit
+Clicking on the canvas will add new points to the system, and force the polynomials to update itself for a better fit.
 
-You can also change the degree of the Least Squares Method Polynomial by editing the value of "LEAST_SQUARES_DEGREE" inside de code
+You can also change the degree of the Least Squares Method Polynomial by editing the value of "LEAST_SQUARES_DEGREE" inside de code.
 
 # Installing
 - Download the <a href='https://github.com/ribe3iro/polynomial-interpolation/archive/refs/heads/main.zip'>project here</a>
