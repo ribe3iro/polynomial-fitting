@@ -1,7 +1,7 @@
 ## Least Squares Method Polynomial
-Basically, Least Squares Method Polynomial consists of the orthogonal projection of a continuous function into the space of polynomials. By doing this, the resulting polynomial is the best polynomial aproximation for this continuous function. That means there is no other same degree polynomial that makes the squared area between itself and the original continuous function lesser!
+Basically, Least Squares Method Polynomial consists of the orthogonal projection of a continuous function into the space of polynomials. By doing this, the resulting polynomial is the best polynomial approximation for this continuous function. That means there is no other same degree polynomial that makes the squared area between itself and the original continuous function lesser!
 
-In this example, things are a little bit different, cause there is no original continuous function to aproximate. Instead, we have points! Take a look at "discrete least squares approximation" for more information about this case.
+In this example, things are a little bit different, cause there is no original continuous function to approximate. Instead, we have points! Take a look at "discrete least squares approximation" for more information about this case.
 
 ## Lagrange Interpolating Polynomial
 Polynomial interpolation means finding the lowest possible degree polynomial that necessarily passes through all the given points. One of the ways of finding it is by the Lagrange formulas below.
